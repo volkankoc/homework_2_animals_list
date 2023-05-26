@@ -55,7 +55,7 @@ class _HomeViewState extends State<HomeView> {
                   animal.add(animal[Random().nextInt(animal.length)]);
                   animalCount.add(Random().nextInt(100));
                 });
-              },
+              }, 
               icon: const Icon(Icons.add)),
         ],
         title: const CustomText(
